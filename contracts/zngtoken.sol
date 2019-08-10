@@ -1,4 +1,5 @@
 pragma solidity ^0.4.24;
+// pragma solidity ^0.5.10;
 
 // ----------------------------------------------------------------------------
 // Hackaton Blockbuilder - Equipe Rocket
@@ -215,7 +216,7 @@ contract ZNGToken is ERC20Interface, Owned, SafeMath {
         revert();
     }
 
-
+s
     // ------------------------------------------------------------------------
     // Owner can transfer out any accidentally sent ERC20 tokens
     // ------------------------------------------------------------------------
