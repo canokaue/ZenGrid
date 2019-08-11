@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
 // Hackaton Blockbuilder - Equipe Rocket
-// ZenGrid - Descentralized renewable energy commerce
+// ZenGrid - Descentralized renewable energy commerce on the Ethereum Blockchain
 // ZNG token contract
 
 // Total supply: 100000000
@@ -11,7 +11,7 @@ pragma solidity ^0.4.24;
 //
 // Enjoy.
 //
-// Based on (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
+// Based on MoritzNeto&BokkyPooBah. The MIT Licence.
 // Author: Kaue Cano 
 // ----------------------------------------------------------------------------
 // deployed at: https://ropsten.etherscan.io/token/0x2ec2356a5dc69e3bf61c52d9c58a42fdd85995d7?a=0x134dc212f53e265402b38713478fb0857cce5991
