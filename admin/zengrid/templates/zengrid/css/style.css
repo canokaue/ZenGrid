@@ -27,12 +27,12 @@
 -------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Work+Sans:400,500');
-@import 'css/bootstrap.min.css';
-@import 'css/animate.css';
-@import 'css/magnific-popup.css';
-@import 'css/owl.carousel.min.css';
-@import 'css/slick.css';
-@import 'css/font-awesome.min.css';
+@import "{ % static 'bootstrap.min.css' %}";
+@import "{ % static 'animate.css' %}";
+@import "{ % static 'magnific-popup.css' %}";
+@import "{ % static 'owl.carousel.min.css'%}";
+@import "{ % static 'slick.css' %}";
+@import "{ % static 'font-awesome.min.css' %}";
 
 
 

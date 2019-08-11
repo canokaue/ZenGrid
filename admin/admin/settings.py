@@ -120,10 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'zengrid/templates/zengrid/css'),
-    os.path.join(BASE_DIR, 'zengrid/templates/zengrid/fonts'),
-    os.path.join(BASE_DIR, 'zengrid/templates/zengrid/img'),
-    os.path.join(BASE_DIR, 'zengrid/templates/zengrid/js'),
-    os.path.join(BASE_DIR, 'zengrid/templates/zengrid')
-]
+STATICFILES_DIRS = (
+                os.path.join(BASE_DIR,'staticfiles'), # if your static files folder is named "staticfiles"
+)

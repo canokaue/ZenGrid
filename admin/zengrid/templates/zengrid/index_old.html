@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,15 +12,14 @@
     <title>Bit.app The Best BitCoin Broker</title>
 
     
-
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="{% static '../../../admin/staticfiles/img/core-img/favicon.ico' %}">
 
     <!-- Core Stylesheet -->
-    <link href="style.css" rel="stylesheet">
+    <link href="{% static '../../../admin/staticfiles/style.css' %}" rel="stylesheet">
 
     <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="{% static '../../../admin/staticfiles/css/responsive.css' %}" rel="stylesheet">
 
 </head>
 
@@ -593,7 +593,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single-team-member">
                         <div class="member-image">
-							<img src="img/team-img/team-1.jpg" alt="">
+							<img src="{% static 'img/team-img/team-1.jpg' %}"  alt="">
                             
                             <div class="team-hover-effects">
                                 <div class="team-social-icon">
