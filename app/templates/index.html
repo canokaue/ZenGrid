@@ -16,6 +16,7 @@
       <link rel="stylesheet" href="static/vendor/fancybox/dist/jquery.fancybox.min.css">
       <link rel="stylesheet" href="static/vendor/animate/animate.min.css">
       <link rel="stylesheet" href="static/css/style.css">
+      <script src="static/js/eth.js" type="text/javascript"></script>
    </head>
    <body id="top">
       
@@ -281,16 +282,6 @@
                      }'>
                      <li class="mx-3 my-4">
                         <a href="static/img/app/slide-sc-1.png" class="gallery-img-item">
-                        <img class="box-shadow-v1" src="static/img/app/slide-sc-1.png" alt="">
-                        </a>
-                     </li>
-                     <li class="mx-3 my-4">
-                        <a href="static/img/app/slide-sc-2.png" class="gallery-img-item">
-                        <img class="box-shadow-v1" src="static/img/app/slide-sc-2.png" alt="">
-                        </a>
-                     </li>
-                     <li class="mx-3 my-4">
-                        <a href="static/img/app/slide-sc-1.png" class="gallery-img-item">
                         <img class="box-shadow-v1" src="static/img/app/slide-sc-3.png" alt="">
                         </a>
                      </li>
@@ -302,11 +293,6 @@
                      <li class="mx-3 my-4">
                         <a href="static/img/app/slide-sc-1.png" class="gallery-img-item">
                         <img class="box-shadow-v1" src="static/img/app/slide-sc-5.png" alt="">
-                        </a>
-                     </li>
-                     <li class="mx-3 my-4">
-                        <a href="static/img/app/slide-sc-2.png" class="gallery-img-item">
-                        <img class="box-shadow-v1" src="static/img/app/slide-sc-1.png" alt="">
                         </a>
                      </li>
                      <li class="mx-3 my-4">
@@ -487,13 +473,13 @@
                      <div class="footer-text">
                          <p>Insert your name, e-mail and address so you can recieve tokens and block data</p>
                      </div>
-                     <div class="address-text">
+                     <div class="address-text" id = "add">
                          <p><span>Address:</span> </p>
                      </div>
-                     <div class="phone-text">
+                     <div class="phone-text" id = "hash">
                          <p><span>Hash:</span> </p>
                      </div>
-                     <div class="email-text">
+                     <div class="email-text" id= "amm">
                          <p><span>Ammount: <br>
                         Rate:</span></p>
                      </div>
@@ -525,7 +511,7 @@
                                      </div>
                                      <!-- Single Input Area Start -->
                                      <div class="col-12">
-                                         <button type="submit" class="btn btn-rounded btn-green u-h-55" id = "butt">Get ZNG</button>
+                                         <button type="submit" class="btn btn-rounded btn-green u-h-55" id = "butt" onclick ="butt()" >Get ZNG</button>
                                      </div>
                                  </div>
                              </div>
