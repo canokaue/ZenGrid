@@ -14,7 +14,8 @@ Same goes for documentation (or the lack of it - sorry but not sorry). Here are 
 <img src="img/splash.jpeg" align="center" />
 <img src="img/craig.jpeg" align="left" />
 <img src="img/sc.jpeg" align="center" />
-<img src="img/craig.jpeg" align="right" />
+<img src="img/q.jpeg" align="left" />
+<img src="img/usr.jpeg" align="center" />
 
 
 
