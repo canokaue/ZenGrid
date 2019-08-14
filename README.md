@@ -19,4 +19,6 @@ Same goes for documentation (or the lack of it - sorry but not sorry). Here are 
 <img src="img/sc.jpeg" align="center" />
 <img src="img/q.jpeg" align="left" />
 <img src="img/usr.jpeg" align="center" />
+<img src="img/top3rank.jpeg" align="center" />
+<img src="photos/win.jpeg" align="center" />
 
